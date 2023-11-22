@@ -1,8 +1,8 @@
  package com.company;
 
 public class Author {
-    private String name;
-    private String surname;
+    String name;
+    String surname;
 
     public String getName() {
         return name;

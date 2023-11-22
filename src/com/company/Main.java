@@ -9,6 +9,7 @@ public class Main {
         book.age = age;
         return book;
     }
+    
     public static Author creatAuthor(){
         Author author = new Author(name, surname);
         author.name = name;
