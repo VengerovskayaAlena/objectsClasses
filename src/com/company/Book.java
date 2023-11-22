@@ -1,9 +1,9 @@
 package com.company;
 
 public class Book {
-    String title;
-    Author author;
-    int age;
+    private String title;
+    private Author author;
+    private int age;
 
     public String getTitle() {
         return title;
