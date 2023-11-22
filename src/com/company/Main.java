@@ -1,15 +1,16 @@
 package com.company;
 
 public class Main {
-    public static Book creatBook(String title, Author author, int age){
-        Book book = new Book();
+
+    public static Book creatBook(){
+        Book book = new Book(title, author, age);
         book.title = title;
         book.author = author;
         book.age = age;
         return book;
     }
-    public static Author creatAuthor(String name, String surname){
-        Author author = new Author();
+    public static Author creatAuthor(){
+        Author author = new Author(name, surname);
         author.name = name;
         author.surname = surname;
         return author;
