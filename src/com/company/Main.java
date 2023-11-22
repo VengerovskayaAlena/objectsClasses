@@ -9,14 +9,13 @@ public class Main {
         book.age = age;
         return book;
     }
-    
+
     public static Author creatAuthor(){
         Author author = new Author(name, surname);
         author.name = name;
         author.surname = surname;
         return author;
     }
-
 
     public static void main(String[] args) {
         Author author1 = creatAuthor("Maxim", "Gorky");
